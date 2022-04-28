@@ -1,0 +1,31 @@
+.App {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  .sidebar {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+@import "dashboard.scss";
+@import "colorSlider.scss";
+@import "dateFormatter.scss";
+@import "swapiComponent.scss";
+@import "weather.scss";
+@import "themeGenerator.scss";
+@import "sidebar.scss";
+@import "login.scss";

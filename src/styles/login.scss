@@ -1,0 +1,27 @@
+.bottom-side {
+  .input-wrapper {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  input {
+    width: 180px;
+  }
+}
+.button {
+  button {
+    width: 80px;
+    height: 40px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  :hover {
+    background-color: rgb(202, 230, 255);
+  }
+}
+.button-wrapper {
+  display: flex;
+}

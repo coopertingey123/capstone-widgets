@@ -1,0 +1,30 @@
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    justify-content: space-around;
+    border: 1px solid black;
+    .my-color {
+        font-size: 24px;
+    }
+    h3 {
+        padding: 0px;
+    }
+    .middle-wrapper {
+        .my-color {
+            padding: 10px 0px;
+        }
+        .select {
+            padding: 10px 0px;
+            select {
+                margin-left: 15px;
+                width: 120px;
+            }
+        }
+        .slider {
+            padding: 10px 0px;
+        }
+    }
+
+}
